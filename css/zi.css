@@ -1,0 +1,73 @@
+    html, body {
+    overflow-x:hidden 
+    } 
+    body {font-family: Source+Sans+Pro;}
+	#navtop a:hover {
+		background-color: rgb(45, 108, 243);
+		text-color: white;
+	}
+	#navbottom a:hover {
+		background-color: rgb(45, 108, 243);
+		text-color: white;
+	}
+	.row:after {
+	  content: "";
+	  display: table;
+	  clear: both;
+	}
+	.square {
+	  overflow: hidden;
+	  border-radius: 4px;
+	  background-size: cover;
+      box-shadow: 0 3px 12px rgba(#252243, .9);
+      padding-bottom: 30px;
+      max-height: 800px;
+      margin-left: 10%;
+    }
+    .infoaspek {
+        font-size: 12px;
+    }
+	li .nav-item:hover {
+		background-color:rgb(45, 108, 243);
+    }
+   
+	#profil:hover {
+		background-color: rgb(45, 100, 243);
+		color: black;
+	}
+    .dropdown:hover .dropdown-menu{display:block;background-color:rgb(45, 108, 243);color:white;}
+    .dropdown .dropdown-menu .dropdown-item{z-index: 10;}
+	.bg-primary {background-color:rgb(45, 108, 243);}
+
+    .center {
+        margin: auto;
+        width: 100%;
+        padding: 10px;
+      }
+    
+    .subjudul {
+        padding:15px;
+        color:white;
+    }
+    .slider-title{
+        top: 50px;
+    }
+    .contents {
+        margin-left: 20px;
+        margin-bottom: 20px;
+    }
+
+	@media screen and (max-width: 600px) {
+        .square {
+            overflow: hidden;
+            border-radius: 4px;
+            background-size: cover;
+            box-shadow: 0 3px 12px rgba(#252243, .9); 
+            margin-left: 5px;
+            margin-right: 5px;
+        }
+        .contents {margin-left: 0px;}
+	}
+	@media screen and (max-width: 900px) {
+	
+	}
