@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ZI</title>
+    <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,700">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Bitter:400,700">
+    <link rel="stylesheet" href="assets/css/styles.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-modal/0.9.1/jquery.modal.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/jquery-modal/0.9.1/jquery.modal.min.css" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Bitter:400,700">
+    <link rel="stylesheet" href="assets/css/styles.min.css">
+    <link rel="stylesheet" href="assets/css/slideshow.css">
+    <link rel="stylesheet" href="assets/css/zi.css">
+    <script src="./assets/js/w3.js"></script>
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.2/jquery.min.js"></script>
+    <link href='https://fonts.googleapis.com/css?family=Roboto:100,400,300,500,700' rel='stylesheet' type='text/css'>
+	<style>
+ 	#navtop a:hover {
+		background-color: #ddd;
+		text-color: white;
+	}
+	#navbottom a:hover {
+		background-color: rgb(105, 154, 245);
+		text-color: white;
+	}
+	.row:after {
+	  content: "";
+	  display: table;
+	  clear: both;
+	}
+	.square {
+	  overflow: hidden;
+	  border-radius: 8px;
+	  background-size: cover;
+	  box-shadow: 0 3px 12px rgba(#252243, .9);
+	  margin: auto;
+      max-height:800px;
+	  }
+    .acc{
+        overflow: hidden;
+        border-radius: 8px;
+        height: auto;
+        box-shadow: 0 3px 12px rgba(#8c8f04, .9);
+        margin-top: 10px;
+        padding-top: 12px;
+        background-color:#8c8f04;
+    }  
+    .acc2{
+        overflow: hidden;
+        border-radius: 8px;
+        height: auto;
+        box-shadow: 0 3px 12px rgba(#8c8f04, .9);
+        margin-top: 10px;
+        padding: 10px;
+        background-color:#ddd;
+    }    
+    .tombol{
+        overflow: hidden;
+        border-radius: 4px;
+        height: 30px;
+        box-shadow: 0 3px 12px rgba(#8c8f04, .9);
+        margin-top: 10px;
+        padding: 5px;
+        background-color:#ddd;
+        color:black;
+    } 
+    .acc-text{
+        font-weight: 200; 
+        text-decoration-color: #fff;
+        padding-left: 10px;
+        top:50%;
+        color:#fff;
+    }
+    .lihat {
+      max-width: 800px;
+      height: 90%;
+      top:0;
+    }
+    .pdf-view {
+      width: 100%;
+      height: 100%;
+      top:0;
+    }
+	#profil:hover {
+		background-color: #ddd;
+		text-color: white;
+	}
+	.dropdown:hover .dropdown-menu{display:block;}
+	.contents {height:850px;}
+    .bg-primary {background-color: blue;}
+	@media screen and (max-width: 600px) {
+	.square {
+	  overflow: hidden;
+	  border-radius: 8px;
+	  background-size: cover;
+	  box-shadow: 0 3px 12px rgba(#252243, .9); 
+	  margin-left: 5px;
+	  margin-right: 5px;
+	}
+  .acc-text{
+        font-weight:smaller; 
+	}
+
+    .bg-primary {background-color: blue;}
+	</style>
+</head>
+
+<body>
+    <div w3-include-html="header.html"></div>
+    <div class="container-fluid d-block contents" style="background-image:url(images/background.jpg);background-attachment: fixed;background-repeat: no-repeat;background-size: 100%;">
+        <div class="row">
+			<div class="col-md-9 square" style="background-color:whitesmoke;border-style:groove;align:center;margin-top:10px;overflow-y: auto;">
+                <div type="button" class="square bg-primary infoaspek" style="text-align: center;color:white;background-color: rgb(34, 35, 37);height: 3vw;padding-top:15px;">
+                <strong><h3>MANAJEMEN PERUBAHAN</h3></strong>
+                <br>
+                </div>   
+                <br>
+                <div class="panel-group" id="accordion">
+                        <div class="panel-heading btn-primary acc" style="padding-top:15px;">
+                                    <a data-toggle="collapse"   href="#ptk" ><h5 class="acc-text">Penyusunan Tim Kerja</h5></a>
+                        </div>
+                        <div id="ptk" class="panel-body square acc2 collapse"  aria-expanded="false" data-parent="#accordion" style="padding-left:10px;">
+
+                                    Kriteria Pemilihan dan Mekanisme Penunjukan Tim Kerja Zona	Integritas Menuju Wilayah Bebas Dari Korupsi (WBK) dan Wilayah Birokrasi Bersih dan Melayani (WBBM) di Pusat
+		                                di Pusat Pembinaan Bahasa dan Sastra Tahun Anggaran 2019<br>
+		                                <a href="#skppt" rel="modal:open"><span class="btn btn-success tombol" style="font-size:small;padding-top:5px;" id="lihat">lihat</span></a>
+                                    <a href="./dokumen/sk-pedoman-pembentukan-tim.pdf" download ><span class="btn btn-primary tombol" style="font-size:small;">unduh</span></a>
+                                    <br><hr>
+                                    SK Pembentukan Tim Kerja Pembangunan Zona Integritas Menuju Wilayah Bebas Dari Korupsi (WBK) dan Wilayah Birokrasi Bersih dan Melayani (WBBM) di Pusat
+                                    di Pusat Pembinaan Bahasa dan Sastra Tahun Anggaran 2019<br>
+                                    <a href="#sktim" rel="modal:open"><span class="btn btn-success tombol" style="font-size:small;">lihat</span></a>
+                                    <a href="./dokumen/sk-tim.pdf" download ><span class="btn btn-primary tombol" style="font-size:small;">unduh</span></a>
+                        </div>
+                        <br>
+                        <div class="panel-heading btn-primary acc" style="padding-top:1%;">
+                                    <a data-toggle="collapse"   href="#drp" aria-expanded="false" class="collapsed">
+                                    <h5 class="acc-text">Dokumen Rencana Pembangunan ZI menuju WBK/WBBM</h5></a>
+                        </div>
+                        <div id="drp" class="panel-body square acc2 collapse" aria-expanded="false" data-parent="#accordion" style="padding-left:10px;">
+                        </div>
+                        <br>
+                        <div class="panel-heading btn-primary acc" style="padding-top:1%;">
+                                    <a data-toggle="collapse"   href="#pep" aria-expanded="false" ><h5 class="acc-text">Dokumen Rencana Pembangunan ZI menuju WBK/WBBM</h5></a>
+                        </div>
+                        <div id="pep" class="panel-body square acc2 collapse" aria-expanded="false" data-parent="#accordion" style="padding-left:10px;">
+                        </div>
+                        <br>
+                        <div class="w-100"></div>
+                </div>
+            </div>
+        </div>
+        <div class="divider"></div>
+        <div class="w-100"></div>
+        <div class="divider"></div>
+        <div class="w-100"></div>
+        <div style="height:100px;"></div>
+    </div>
+    <div w3-include-html="footer.html"></div>
+    <div></div>
+                                  <!-- modal window -->
+                                    <div id="skppt" class="modal lihat">
+                                        <object class="pdf-view" data="./dokumen/sk-pedoman-pembentukan-tim.pdf" ></object>
+                                    </div>
+                                    <div id="sktim" class="modal lihat">
+                                    <object class="pdf-view" data="./dokumen/sk-tim.pdf" ></object>
+                                  </div>    
+
+    <script src="assets/js/jquery.min.js"></script>
+    <script src="assets/bootstrap/js/bootstrap.min.js"></script>
+    <script src="assets/jss/script.min.js"></script>
+    <script>
+    w3.includeHTML();
+	</script>
+</body>
+
+</html>
